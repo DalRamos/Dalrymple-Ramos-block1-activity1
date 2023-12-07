@@ -8,11 +8,20 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Simple GWA Calculator"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"  />
+
     <EditText
         android:id="@+id/p1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter P1"
+        android:textColorHint="@color/black"
         android:inputType="numberDecimal" />
 
     <EditText
@@ -21,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="Enter P2"
+        android:textColorHint="@color/black"
         android:inputType="numberDecimal" />
 
     <EditText
@@ -29,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="Enter P3"
+        android:textColorHint="@color/black"
         android:inputType="numberDecimal" />
 
     <Button
@@ -54,6 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:gravity="center"
         android:text="General Average: " />
 
 
